@@ -34,3 +34,4 @@ rm -rf %{buildroot}
 %doc README.txt
 %attr(0755,root,root) %{_bindir}/*
 %{py_platsitedir}/*
+
