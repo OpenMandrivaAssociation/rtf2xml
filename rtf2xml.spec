@@ -10,6 +10,7 @@ Source0:		http://belnet.dl.sourceforge.net/sourceforge/rtf2xml/rtf2xml-1.33.tar.
 URL:			http://rtf2xml.sourceforge.net/
 License:		GPL
 Group:			File tools
+BuildRequires:		python
 BuildRoot:		%{_tmppath}/%{name}-%{version}-%{release}-root
 
 %description
