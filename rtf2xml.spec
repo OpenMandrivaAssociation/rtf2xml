@@ -1,5 +1,5 @@
 %define version		1.33
-%define release		2
+%define release		3
 %define name		rtf2xml
 
 Summary:		Converts RTF format to structured XML
