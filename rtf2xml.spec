@@ -37,3 +37,24 @@ rm -rf %{buildroot}
 %attr(0755,root,root) %{_bindir}/*
 %{py_puresitedir}/*
 
+
+
+%changelog
+* Tue Sep 15 2009 Thierry Vignaud <tv@mandriva.org> 1.33-4mdv2010.0
++ Revision: 442767
+- rebuild
+
+* Tue Jan 06 2009 Funda Wang <fwang@mandriva.org> 1.33-3mdv2009.1
++ Revision: 326015
+- rebuild
+
+* Mon Dec 17 2007 Giuseppe Ghibò <ghibo@mandriva.com> 1.33-2mdv2008.1
++ Revision: 121644
+- Rebuilt.
+- Use %%py_puresitedir in %%files.
+- Add python-devel to BuildRequires.
+- Added python to buildrequires.
+- Initial release.
+- import rtf2xml
+
+
